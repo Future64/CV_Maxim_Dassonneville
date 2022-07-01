@@ -32,13 +32,13 @@
 }
 
 .bodyCv h3 {
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 700;
   color: rgb(23, 0, 53);
   text-align: center;
 }
 .bodyCv h4 {
-  font-size: 25px;
+  font-size: 18px;
   color: rgb(23, 0, 53);
 }
 
@@ -51,13 +51,13 @@ a {
 }
 li,
 a {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
   color: rgb(23, 0, 53);
 }
 
 ol {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 200;
 }
 
@@ -94,6 +94,7 @@ ul {
   margin-right: 30px;
 }
 ol a {
+  display: none;
   text-align: right;
 }
 @media screen and (max-width: 610px) {
