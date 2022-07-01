@@ -6,7 +6,7 @@
 .sidebarContainer h1 {
   text-align: center;
   margin-top: 20px;
-  margin-left: 8px;
+  /* margin-left: 8px; */
   font-size: 19px;
   font-weight: 800;
 }
@@ -66,12 +66,17 @@ h5 {
   width: 30px;
   height: 30px;
 }
-
+.logo:hover {
+  opacity: 80%;
+}
 .github {
   filter: invert(1);
 }
 .r {
   width: 250px;
+}
+.r:hover {
+  opacity: 80%;
 }
 
 .rayon {
@@ -106,6 +111,23 @@ h5 {
   display: block;
   font-size: 18px;
   font-weight: 700;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+
+  font-weight: 700;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.contact a {
+  font-size: 15px;
+  /* margin-top: 15px; */
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (max-width: 610px) {
