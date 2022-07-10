@@ -132,7 +132,7 @@ h5 {
 .bloc2 {
   width: 90%;
 }
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 780px) {
   .sidebarContainer {
     width: auto;
   }

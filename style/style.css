@@ -96,7 +96,7 @@ ul {
 ol a {
   text-align: right;
 }
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 780px) {
   .cvContainer {
     display: flex;
     flex-direction: column;
