@@ -72,6 +72,9 @@ h5 {
 .github {
   filter: invert(1);
 }
+.logoPortfolio {
+  border-radius: 50%;
+}
 .r {
   width: 250px;
 }
